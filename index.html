@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PTD Superhuman Transformation - The Ultimate New Year Gift</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ptd: {
+                green: '#2E7D32',
+                dark: '#1A1A1A',
+                gold: '#D4AF37',
+                lightGray: '#F5F5F5',
+                softGreen: '#F0F8F0',
+                textGray: '#666666',
+                red: '#8B0000', // Deep festive red for subtle Santa vibe
+                goldAccent: '#FFD700'
+              }
+            },
+            fontFamily: {
+              sans: ['Plus Jakarta Sans', 'sans-serif'],
+              serif: ['Playfair Display', 'serif']
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .glow-gradient {
+        background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.08) 0%, rgba(26, 26, 26, 0) 70%);
+      }
+      .festive-border {
+        border-image: linear-gradient(to right, #2E7D32, #D4AF37, #2E7D32) 1;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .text-balance {
+        text-wrap: balance;
+      }
+      html { scroll-behavior: smooth; }
+      body { -webkit-font-smoothing: antialiased; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "canvas-confetti": "https://esm.sh/canvas-confetti@^1.9.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-white text-ptd-dark overflow-x-hidden font-sans">
+    <div id="root"></div>
+  </body>
+</html>

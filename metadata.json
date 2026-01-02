@@ -1,0 +1,8 @@
+{
+  "name": "PTD Superhuman Transformation Sales Page",
+  "description": "High-converting sales page for PTD Fitness personal training, specifically optimized for New Year New You campaigns targeting busy professionals in Dubai.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
